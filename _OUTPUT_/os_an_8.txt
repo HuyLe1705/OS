@@ -1,84 +1,89 @@
-Error: Not enough free frames available.
 Time slot   0
 ld_routine
 	Loaded a process at input/proc/an0a, PID: 1 PRIO: 1
 Time slot   1
 	CPU 0: Dispatched process  1
-===== PHYSICAL MEMORY AFTER ALLOCATION =====
 PID=1 - Region=0 - Address=00000000 - Size=300 byte
-print_pgtbl: 0 - 1023
+print_pgtbl: 0 - 512
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
 Time slot   2
-===== PHYSICAL MEMORY AFTER ALLOCATION =====
-PID=1 - Region=1 - Address=00000200 - Size=212 byte
-print_pgtbl: 0 - 1023
+PID=1 - Region=1 - Address=0000012C - Size=212 byte
+print_pgtbl: 0 - 512
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
 Time slot   3
-===== PHYSICAL MEMORY AFTER ALLOCATION =====
-PID=1 - Region=2 - Address=00000300 - Size=512 byte
-print_pgtbl: 0 - 1791
+PID=1 - Region=2 - Address=00000200 - Size=512 byte
+print_pgtbl: 0 - 1024
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
-00000012: 80000002
-00000016: 00000000
-00000020: 00000000
+00000008: 80000002
+00000012: 80000003
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
+Page Number: 2 -> Frame Number: 2
+Page Number: 3 -> Frame Number: 3
 Time slot   4
-===== PHYSICAL MEMORY AFTER DEALLOCATION =====
 PID=1 - Region=0
-print_pgtbl: 0 - 1791
+print_pgtbl: 0 - 1024
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
-00000012: 80000002
-00000016: 00000000
-00000020: 00000000
+00000008: 80000002
+00000012: 80000003
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
+Page Number: 2 -> Frame Number: 2
+Page Number: 3 -> Frame Number: 3
 Time slot   5
 	CPU 0: Put process  1 to run queue
 	CPU 0: Dispatched process  1
-===== PHYSICAL MEMORY AFTER DEALLOCATION =====
 PID=1 - Region=1
-print_pgtbl: 0 - 1791
+print_pgtbl: 0 - 1024
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
-00000012: 80000002
-00000016: 00000000
-00000020: 00000000
+00000008: 80000002
+00000012: 80000003
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
+Page Number: 2 -> Frame Number: 2
+Page Number: 3 -> Frame Number: 3
 Time slot   6
-===== PHYSICAL MEMORY AFTER ALLOCATION =====
 PID=1 - Region=0 - Address=00000000 - Size=512 byte
-print_pgtbl: 0 - 1791
+print_pgtbl: 0 - 1024
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
-00000012: 80000002
-00000016: 00000000
-00000020: 00000000
+00000008: 80000002
+00000012: 80000003
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
+Page Number: 2 -> Frame Number: 2
+Page Number: 3 -> Frame Number: 3
 Time slot   7
-===== PHYSICAL MEMORY AFTER DEALLOCATION =====
 PID=1 - Region=0
-print_pgtbl: 0 - 1791
+print_pgtbl: 0 - 1024
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
-00000012: 80000002
-00000016: 00000000
-00000020: 00000000
+00000008: 80000002
+00000012: 80000003
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
+Page Number: 2 -> Frame Number: 2
+Page Number: 3 -> Frame Number: 3
 Time slot   8
-===== PHYSICAL MEMORY AFTER DEALLOCATION =====
 PID=1 - Region=2
-print_pgtbl: 0 - 1791
+print_pgtbl: 0 - 1024
 00000000: 80000000
 00000004: 80000001
-00000008: 00000000
-00000012: 80000002
-00000016: 00000000
-00000020: 00000000
+00000008: 80000002
+00000012: 80000003
+Page Number: 0 -> Frame Number: 0
+Page Number: 1 -> Frame Number: 1
+Page Number: 2 -> Frame Number: 2
+Page Number: 3 -> Frame Number: 3
 Time slot   9
 	CPU 0: Processed  1 has finished
 	CPU 0 stopped

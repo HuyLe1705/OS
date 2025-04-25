@@ -18,150 +18,365 @@ Time slot   8
 Time slot   9
 	CPU 0: Put process  2 to run queue
 	CPU 0: Dispatched process  4
-===== PHYSICAL MEMORY AFTER ALLOCATION =====
 PID=4 - Region=1 - Address=00000000 - Size=100 byte
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
+Page Number: 0 -> Frame Number: 0
 Time slot  10
-===== PHYSICAL MEMORY AFTER WRITING =====
 write region=1 offset=0 value=97
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
 Time slot  11
-===== PHYSICAL MEMORY AFTER WRITING =====
 write region=1 offset=1 value=110
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
 Time slot  12
-===== PHYSICAL MEMORY AFTER WRITING =====
 write region=1 offset=2 value=100
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
 Time slot  13
 	CPU 0: Put process  4 to run queue
-	CPU 0: Dispatched process  3
+	CPU 0: Dispatched process  2
 Time slot  14
 Time slot  15
 Time slot  16
-Time slot  17
-	CPU 0: Put process  3 to run queue
-	CPU 0: Dispatched process  1
-Time slot  18
-Time slot  19
-Time slot  20
-Time slot  21
-	CPU 0: Put process  1 to run queue
-	CPU 0: Dispatched process  2
-Time slot  22
-Time slot  23
-Time slot  24
 	CPU 0: Processed  2 has finished
 	CPU 0: Dispatched process  4
-===== PHYSICAL MEMORY AFTER WRITING =====
 write region=1 offset=3 value=101
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
-Time slot  25
-===== PHYSICAL MEMORY AFTER WRITING =====
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+Time slot  17
 write region=1 offset=4 value=112
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
-Time slot  26
-===== PHYSICAL MEMORY AFTER WRITING =====
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+Time slot  18
 write region=1 offset=5 value=116
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
-Time slot  27
-===== PHYSICAL MEMORY AFTER WRITING =====
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+Time slot  19
 write region=1 offset=6 value=114
-print_pgtbl: 0 - 511
+print_pgtbl: 0 - 256
 00000000: 80000000
-Time slot  28
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+Time slot  20
 	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+write region=1 offset=7 value=97
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+Time slot  21
+write region=1 offset=8 value=105
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+Time slot  22
+write region=1 offset=9 value=-1
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+Time slot  23
+read region=1 offset=0 value=97
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=1 value=110
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=2 value=100
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=3 value=101
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=4 value=112
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=5 value=116
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=6 value=114
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=7 value=97
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=8 value=105
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+read region=1 offset=9 value=-1
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+===== PHYSICAL MEMORY DUMP =====
+BYTE 00000000: 97
+BYTE 00000001: 110
+BYTE 00000002: 100
+BYTE 00000003: 101
+BYTE 00000004: 112
+BYTE 00000005: 116
+BYTE 00000006: 114
+BYTE 00000007: 97
+BYTE 00000008: 105
+BYTE 00000009: -1
+===== PHYSICAL MEMORY END-DUMP =====
+================================================================
+The procname retrieved from memregionid 1 is "andeptrai"
+Time slot  24
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+PID=4 - Region=1
+print_pgtbl: 0 - 256
+00000000: 80000000
+Page Number: 0 -> Frame Number: 0
+Time slot  25
+	CPU 0: Processed  4 has finished
 	CPU 0: Dispatched process  3
+Time slot  26
+Time slot  27
+Time slot  28
 Time slot  29
+	CPU 0: Put process  3 to run queue
+	CPU 0: Dispatched process  3
 Time slot  30
 Time slot  31
 Time slot  32
-	CPU 0: Put process  3 to run queue
-	CPU 0: Dispatched process  1
 Time slot  33
+	CPU 0: Put process  3 to run queue
+	CPU 0: Dispatched process  3
 Time slot  34
 Time slot  35
 Time slot  36
-	CPU 0: Put process  1 to run queue
-	CPU 0: Dispatched process  4
-===== PHYSICAL MEMORY AFTER WRITING =====
-write region=1 offset=7 value=97
-print_pgtbl: 0 - 511
-00000000: 80000000
 Time slot  37
-===== PHYSICAL MEMORY AFTER WRITING =====
-write region=1 offset=8 value=105
-print_pgtbl: 0 - 511
-00000000: 80000000
+	CPU 0: Processed  3 has finished
+	CPU 0: Dispatched process  1
 Time slot  38
-===== PHYSICAL MEMORY AFTER WRITING =====
-write region=1 offset=9 value=-1
-print_pgtbl: 0 - 511
-00000000: 80000000
 Time slot  39
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=0 value=97
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=1 value=110
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=2 value=100
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=3 value=101
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=4 value=112
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=5 value=116
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=6 value=114
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=7 value=97
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=8 value=105
-print_pgtbl: 0 - 511
-00000000: 80000000
-===== PHYSICAL MEMORY AFTER READING =====
-read region=1 offset=9 value=-1
-print_pgtbl: 0 - 511
-00000000: 80000000
-The procname retrieved from memregionid 1 is "andeptrai"
 Time slot  40
-	CPU 0: Put process  4 to run queue
-	CPU 0: Dispatched process  4
-===== PHYSICAL MEMORY AFTER DEALLOCATION =====
-PID=4 - Region=1
-print_pgtbl: 0 - 511
-00000000: 80000000
 Time slot  41
-	CPU 0: Processed  4 has finished
-	CPU 0: Dispatched process  3
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
 Time slot  42
 Time slot  43
 Time slot  44
 Time slot  45
-	CPU 0: Processed  3 has finished
+	CPU 0: Put process  1 to run queue
 	CPU 0: Dispatched process  1
 Time slot  46
 Time slot  47
